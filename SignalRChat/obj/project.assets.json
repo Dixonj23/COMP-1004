@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mypc\\source\\repos\\SignalRChat\\SignalRChat.csproj",
+      "projectUniqueName": "C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\SignalRChat\\SignalRChat.csproj",
       "projectName": "SignalRChat",
-      "projectPath": "C:\\Users\\mypc\\source\\repos\\SignalRChat\\SignalRChat.csproj",
+      "projectPath": "C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\SignalRChat\\SignalRChat.csproj",
       "packagesPath": "C:\\Users\\mypc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mypc\\source\\repos\\SignalRChat\\obj\\",
+      "outputPath": "C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\SignalRChat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w1qVz+ZXxxhxmBqy/3UX3VDjDeR/zeJTcrkSFNYExf8eMHyz9yQmrFbDxSYzL1ayiEoT5f9Yf3LUYo2+ibMCGg==",
+  "dgSpecHash": "FPbJxJVgZZZtC1duvkE3bpFBzn10isSAVShfzOmqk8FGDJUC3t8Bwwa1CKo2dWmel19TRfwKpvQ5x4UKP007aw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mypc\\source\\repos\\TTRPGWebApp\\TTRPGWebApp.csproj",
+  "projectFilePath": "C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\TTRPGWebApp\\TTRPGWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mypc\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\mypc\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
