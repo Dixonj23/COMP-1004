@@ -1,0 +1,27 @@
+﻿@model IEnumerable<COMP1004_Project.Models.Game>
+
+@{
+    ViewData["Title"] = "Home Page";
+    //<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"> good navbar for later
+}
+
+<div class="text-center">
+    <h1 class="display-4">COMP1004 Project</h1>
+    <p>Prototype 1: Created on 22/12/2023</a>.</p>
+
+</div>
+
+<div class="card-columns">
+    @foreach (var item in Model)
+    {
+
+        <div class="card">
+            <div class="card-img" style="background-image: url('@item.Image');"></div>
+            <div class="card-body">
+                <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                <h6>@Html.DisplayFor(modelItem => item.Type)</h6>
+            </div>
+
+        </div>
+    }
+</div>

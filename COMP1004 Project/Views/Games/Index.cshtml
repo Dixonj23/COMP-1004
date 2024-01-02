@@ -1,0 +1,30 @@
+﻿@model IEnumerable<COMP1004_Project.Models.Game>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+
+<div class="card-columns">
+    @foreach (var item in Model) {
+
+        <div class="card">
+            <div class="card-img" style="background-image: url('@item.Image');"></div>
+            <div class="card-body">
+
+                <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                <h6>@Html.DisplayFor(modelItem => item.Type)</h6>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </div>
+         
+        </div>
+    }
+</div>
