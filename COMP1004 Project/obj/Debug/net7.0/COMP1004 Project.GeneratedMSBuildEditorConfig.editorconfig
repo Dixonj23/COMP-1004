@@ -9,69 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = COMP1004_Project
 build_property.RootNamespace = COMP1004_Project
-build_property.ProjectDir = C:\Users\mypc\source\repos\COMP1004 Project\
+build_property.ProjectDir = C:\Users\mypc\OneDrive\Documents\GitHub\COMP-1004\COMP1004 Project\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mypc\source\repos\COMP1004 Project
+build_property.MSBuildProjectDirectory = C:\Users\mypc\OneDrive\Documents\GitHub\COMP-1004\COMP1004 Project
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mypc/source/repos/COMP1004 Project/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mypc/source/repos/COMP1004 Project/Views/Games/Create.cshtml]
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/Games/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mypc/source/repos/COMP1004 Project/Views/Games/Delete.cshtml]
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/Games/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mypc/source/repos/COMP1004 Project/Views/Games/Details.cshtml]
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/Games/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mypc/source/repos/COMP1004 Project/Views/Games/Edit.cshtml]
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/Games/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mypc/source/repos/COMP1004 Project/Views/Games/Index.cshtml]
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/Games/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mypc/source/repos/COMP1004 Project/Views/Games/ShowSearchForm.cshtml]
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/Games/ShowSearchForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcU2hvd1NlYXJjaEZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mypc/source/repos/COMP1004 Project/Views/Home/Index.cshtml]
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mypc/source/repos/COMP1004 Project/Views/Home/Privacy.cshtml]
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mypc/source/repos/COMP1004 Project/Views/Shared/Error.cshtml]
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mypc/source/repos/COMP1004 Project/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mypc/source/repos/COMP1004 Project/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mypc/source/repos/COMP1004 Project/Views/_ViewImports.cshtml]
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mypc/source/repos/COMP1004 Project/Views/_ViewStart.cshtml]
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mypc/source/repos/COMP1004 Project/Views/Shared/_Layout.cshtml]
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-uk9xpkvl20

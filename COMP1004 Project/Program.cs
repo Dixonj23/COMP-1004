@@ -1,8 +1,11 @@
-using COMP1004_Project.Data;
+﻿using COMP1004_Project.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<COMP1004_ProjectContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("COMP1004_ProjectContext") ?? throw new InvalidOperationException("Connection string 'COMP1004_ProjectContext' not found.")));
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");

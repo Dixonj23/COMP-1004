@@ -109,7 +109,7 @@ namespace COMP1004_Project.Controllers
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Type")] Game game)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Type,Image")] Game game)
         {
             if (id != game.Id)
             {
