@@ -11,19 +11,25 @@
 
 </div>
 
-<a href =""></a>
-    <div class="card-columns">
-        @foreach (var item in Model)
-        {
-            <div class="card">
-                <a asp-action="@item.URL">@item.Name</a>
-                <div class="card-img" style="background-image: url('@item.Image');"></div>
-                <div class="card-body">
-                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
-                    <h6>@Html.DisplayFor(modelItem => item.Type)</h6>
-                </div>
 
+<div class="card-columns">
+    @foreach (var item in Model)
+    {
+        
+        <div class="card">
+           <a asp-action="@item.URL">
+            <div class="card-img" style="background-image: url('@item.Image');"></div>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                <h6>@Html.DisplayFor(modelItem => item.Type)</h6>
             </div>
-        }
-    </div>
-</a>
+
+        </div>
+        
+    }
+</div>
+
+
+
+

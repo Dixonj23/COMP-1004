@@ -24,6 +24,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/Characters/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcmFjdGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/DND/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRE5EXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/DND/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRE5EXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/DND/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRE5EXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/DND/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRE5EXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mypc/OneDrive/Documents/GitHub/COMP-1004/COMP1004 Project/Views/DND/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRE5EXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

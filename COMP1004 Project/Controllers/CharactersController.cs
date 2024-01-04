@@ -1,25 +1,30 @@
-﻿using COMP1004_Project.Data;
-using COMP1004_Project.Models;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using COMP1004_Project.Data;
+using COMP1004_Project.Models;
 
 namespace COMP1004_Project.Controllers
 {
-    public class DND : Controller
+    public class CharactersController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public DND(ApplicationDbContext context)
+        public CharactersController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        [Route("Home/{name?}")]
+        // GET: Characters
         public async Task<IActionResult> Index()
         {
-            return _context.Character != null ?
-                        View(await _context.Character.ToListAsync()) :
-                        Problem("Entity set 'ApplicationDbContext.Character'  is null.");
+              return _context.Character != null ? 
+                          View(await _context.Character.ToListAsync()) :
+                          Problem("Entity set 'ApplicationDbContext.Character'  is null.");
         }
 
         // GET: Characters/Details/5
@@ -39,7 +44,6 @@ namespace COMP1004_Project.Controllers
 
             return View(character);
         }
-
 
         // GET: Characters/Create
         public IActionResult Create()
@@ -146,14 +150,14 @@ namespace COMP1004_Project.Controllers
             {
                 _context.Character.Remove(character);
             }
-
+            
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool CharacterExists(int id)
         {
-            return (_context.Character?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_context.Character?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
