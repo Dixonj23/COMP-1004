@@ -12,13 +12,14 @@ namespace COMP1004_Project.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly ApplicationDbContext _context;
 
+
         public HomeController(ILogger<HomeController> logger, ApplicationDbContext context)
         {
             _logger = logger;
             _context = context;
         }
 
-        [Authorize]
+        
         public async Task<IActionResult> IndexAsync()
         {
             return _context.Game != null ?

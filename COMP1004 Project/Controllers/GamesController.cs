@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace COMP1004_Project.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class GamesController : Controller
     {
         private readonly ApplicationDbContext _context;
