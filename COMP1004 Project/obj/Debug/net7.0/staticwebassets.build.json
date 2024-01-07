@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yrwjMuDAWFOCknwgG8t/fnap4hXRGI6COaew3ejv3vE=",
+  "Hash": "27BusFPFpbWn1Vnc77YZUN+v6Gg0b1H3jeWbLv9e0fc=",
   "Source": "COMP1004 Project",
   "BasePath": "_content/COMP1004 Project",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\wwwroot\\Images\\new-button.jpg",
+      "SourceId": "COMP1004 Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\wwwroot\\",
+      "BasePath": "_content/COMP1004 Project",
+      "RelativePath": "Images/new-button.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\new-button.jpg"
     },
     {
       "Identity": "C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\wwwroot\\js\\site.js",

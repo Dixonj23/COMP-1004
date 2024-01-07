@@ -4,32 +4,51 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Characters</h1>
 <p>Hello from our View Template!</p>
 
 <p> 
     <a asp-action="Create">Create New</a>
 </p>
 
-<div class="card-deck">
-    @foreach (var item in Model){
-    <div class="card bg-secondary shadow-lg" style="width:18rem;">
-        <div class="card-columns">
-            <div class="card-img" style="background-image: url('@item.Image');"></div>
-            <h4 class="card-title">
-                @Html.DisplayFor(modelItem => item.Name)
-            </h4>
-            <p class="card-text">
-                @Html.DisplayFor(modelItem => item.Classes)
-            </p>
 
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model){
+        <div class="card bg-secondary shadow-lg" style="width:18rem;">
+            <div class="card-columns">
+                <div class="card-img" style="background-image: url('@item.Image');"></div>
+                <h4 class="card-title">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </h4>
+                <p class="card-text">
+                    @Html.DisplayFor(modelItem => item.Classes)
+                </p>
+
+            </div>
+            <div class="card-footer text-muted">
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </div>
         </div>
-        <div class="card-footer text-muted">
-            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+   
+        }
+        <div class="card bg-secondary shadow-lg" style="width:18rem;">
+            <a asp-action="Create">
+            <div class="new-button">
+                <div class="card-img" style="background-image: url('Images/new button.jpg');"></div>
+                <h4 class="card-title">
+                    
+                    </h4>
+                <p class ="card-text">
+                    
+                    </p>
+            </div>
+            <div class="card-footer text-muted">
+                <a asp-action="Create">Create a new Character</a>
+            </div>
+            </a>
         </div>
     </div>
-   
-    }
 </div>

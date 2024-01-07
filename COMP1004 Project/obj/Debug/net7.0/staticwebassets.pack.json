@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\COMP1004 Project.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\wwwroot\\Images\\new-button.jpg",
+      "PackagePath": "staticwebassets\\Images\\new-button.jpg"
+    },
+    {
       "Id": "C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
