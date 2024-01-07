@@ -7,7 +7,7 @@
         public string Race { get; set; }
         public string Classes { get; set; }
         public int Level { get; set; }
-        public string Image { get; set; }
+        public string? Image { get; set; }
         public Character()
         {
 

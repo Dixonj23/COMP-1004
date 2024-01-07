@@ -2,6 +2,7 @@
 using COMP1004_Project.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.SqlServer.Server;
 
 namespace COMP1004_Project.Controllers
 {
@@ -47,12 +48,19 @@ namespace COMP1004_Project.Controllers
             return View();
         }
 
-        // POST: Characters/Create
+        // GET: Characters/Create2
+        public IActionResult Create2()
+        {
+            return View();
+        }
+
+
+        // POST: Characters/Create2
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Race,Classes,Level,Image")] Character character)
+        public async Task<IActionResult> Create2([Bind("Id,Name,Race,Classes,Level,Image")] Character character)
         {
             if (ModelState.IsValid)
             {
