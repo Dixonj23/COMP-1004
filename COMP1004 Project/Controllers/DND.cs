@@ -18,8 +18,13 @@ namespace COMP1004_Project.Controllers
         [Route("Home/{name?}")]
         public async Task<IActionResult> Index()
         {
+
             return _context.Character != null ?
-                        View(await _context.Character.ToListAsync()) :
+                        View("Index", new CustomViewModel
+                        {
+                            Characters = await _context.Character.ToListAsync(),
+                            Classes = await _context.Class.ToListAsync()
+                        }) :
                         Problem("Entity set 'ApplicationDbContext.Character'  is null.");
         }
 
