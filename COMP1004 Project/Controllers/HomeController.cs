@@ -7,6 +7,7 @@ using System.Diagnostics;
 
 namespace COMP1004_Project.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
