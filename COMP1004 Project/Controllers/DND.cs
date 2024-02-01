@@ -59,13 +59,17 @@ namespace COMP1004_Project.Controllers
             return View();
         }
 
+        public IActionResult Create3()
+        {
+            return View();
+        }
 
         // POST: Characters/Create2
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create2([Bind("Id,Name,Race,Classes,Level,Image")] Character character)
+        public async Task<IActionResult> Create3([Bind("Id,Name,Race,Classes,Level,Image")] Character character)
         {
             if (ModelState.IsValid)
             {
