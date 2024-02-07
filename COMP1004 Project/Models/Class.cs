@@ -6,7 +6,11 @@
         public string Name { get; set; }
         public int Hitdie { get; set; }
         public int Level { get; set; }
-        public string Features { get; set; } 
+        public string Features { get; set; }
 
+        public Class()
+        {
+
+        }
     }
 }

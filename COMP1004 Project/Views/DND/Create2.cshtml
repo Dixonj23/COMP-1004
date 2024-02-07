@@ -1,4 +1,4 @@
-﻿@model COMP1004_Project.Models.Character
+﻿@model CustomViewModel
 
 @{
     ViewData["Title"] = "Create2";
@@ -10,24 +10,43 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create3" method="post">
+        <form asp-action="Create2">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
-                
+                <label asp-for="Character.Name" class="control-label"></label>
+                <input asp-for="Character.Name" class="form-control" />
+
             </div>
             <div class="form-group">
-                <div class="form-group">
-                    <label asp-for="Race" class="control-label"></label>
-                    <input asp-for="Race" class="form-control" />
-                    <span asp-validation-for="Race" class="text-danger"></span>
-                </div>
+                <label asp-for="Character.Race" class="control-label"></label>
+                <input asp-for="Character.Race" class="form-control" />
+
+            </div>
+            <div class="form-group">
+                <label asp-for="Character.Classes" class="control-label"></label>
+
+                @foreach (var item in Model.Classes)
+                {
+                    <label><input asp-for="Character.Classes" value="item.Name" type="radio" />item.Name</label>
+                }
+                
+                <input asp-for="Character.Classes" class="form-control" />
+
+            </div>
+            <div class="form-group">
+                <label asp-for="Character.Level" class="control-label"></label>
+                <input asp-for="Character.Level" class="form-control" />
+                <span asp-validation-for="Character.Level" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Character.Image" class="control-label"></label>
+                <h10>(Optional)</h10>
+                <input asp-for="Character.Image" class="form-control" />
+                <span asp-validation-for="Character.Image" class="text-danger"></span>
             </div>
 
             <div class="form-group">
-                <input type="submit" value="Continue" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>

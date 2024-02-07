@@ -1,20 +1,44 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using COMP1004_Project.Data;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace COMP1004_Project.Controllers
 {
     public class ClassController : Controller
+
     {
-        // GET: ClassController
-        public ActionResult Index()
+
+        private readonly ApplicationDbContext _context;
+
+        public ClassController(ApplicationDbContext context)
         {
-            return View();
+            _context = context;
+        }
+        // GET: ClassController
+        public async Task<IActionResult> Index()
+        {
+            return _context.Class != null ?
+                        View(await _context.Class.ToListAsync()) :
+                        Problem("Entity set 'ApplicationDbContext.Class'  is null.");
         }
 
         // GET: ClassController/Details/5
-        public ActionResult Details(int id)
+        public async Task<IActionResult> Details(int? id)
         {
-            return View();
+            if (id == null || _context.Class == null)
+            {
+                return NotFound();
+            }
+
+            var classs = await _context.Class
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (classs == null)
+            {
+                return NotFound();
+            }
+
+            return View(classs);
         }
 
         // GET: ClassController/Create
@@ -78,6 +102,11 @@ namespace COMP1004_Project.Controllers
             {
                 return View();
             }
+        }
+
+        private bool ClassExists(int id)
+        {
+            return (_context.Class?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

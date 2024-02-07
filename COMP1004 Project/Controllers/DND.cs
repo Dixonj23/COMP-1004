@@ -15,6 +15,8 @@ namespace COMP1004_Project.Controllers
             _context = context;
         }
 
+
+
         [Route("Home/{name?}")]
         public async Task<IActionResult> Index()
         {
@@ -56,7 +58,9 @@ namespace COMP1004_Project.Controllers
         // GET: Characters/Create2
         public IActionResult Create2()
         {
-            return View();
+            return _context.Character != null ?
+                View() :
+                 Problem("Entity set 'ApplicationDbContext.Character'  is null.");
         }
 
         public IActionResult Create3()
@@ -64,20 +68,24 @@ namespace COMP1004_Project.Controllers
             return View();
         }
 
+
         // POST: Characters/Create2
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create3([Bind("Id,Name,Race,Classes,Level,Image")] Character character)
+        public async Task<IActionResult> Create2([Bind("Id,Name,Race,Classes,Level,Image")] Character character)
         {
+            
             if (ModelState.IsValid)
             {
                 _context.Add(character);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(character);
+            return _context.Class != null ? 
+                View():
+                 Problem("Entity set 'ApplicationDbContext.Class'  is null.");
         }
 
         // GET: Characters/Edit/5
