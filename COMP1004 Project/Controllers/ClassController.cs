@@ -1,4 +1,6 @@
 ﻿using COMP1004_Project.Data;
+using COMP1004_Project.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -15,7 +17,8 @@ namespace COMP1004_Project.Controllers
         {
             _context = context;
         }
-        // GET: ClassController
+
+        // GET: Classes
         public async Task<IActionResult> Index()
         {
             return _context.Class != null ?
@@ -23,7 +26,7 @@ namespace COMP1004_Project.Controllers
                         Problem("Entity set 'ApplicationDbContext.Class'  is null.");
         }
 
-        // GET: ClassController/Details/5
+        // GET: Class/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Class == null)
@@ -41,72 +44,126 @@ namespace COMP1004_Project.Controllers
             return View(classs);
         }
 
-        // GET: ClassController/Create
-        public ActionResult Create()
+        // GET: Classes/Create
+        [Authorize]
+        public IActionResult Create()
         {
             return View();
         }
 
-        // POST: ClassController/Create
+        // POST: Classes/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<IActionResult> Create([Bind("Id,Name,Hitdie,Level,Features")] Class classs)
         {
-            try
+            if (ModelState.IsValid)
             {
+                _context.Add(classs);
+                await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            catch
-            {
-                return View();
-            }
+            return View(classs);
         }
 
-        // GET: ClassController/Edit/5
-        public ActionResult Edit(int id)
+        // GET: Classes/Edit/5
+        [Authorize]
+        public async Task<IActionResult> Edit(int? id)
         {
-            return View();
+            if (id == null || _context.Class == null)
+            {
+                return NotFound();
+            }
+
+            var classs = await _context.Class.FindAsync(id);
+            if (classs == null)
+            {
+                return NotFound();
+            }
+            return View(classs);
         }
 
-        // POST: ClassController/Edit/5
+        // POST: Classes/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Hitdie,Level,Features")] Class classs)
         {
-            try
+            if (id != classs.Id)
             {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(classs);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!ClassExists(classs.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
                 return RedirectToAction(nameof(Index));
             }
-            catch
-            {
-                return View();
-            }
+            return View(classs);
         }
 
-        // GET: ClassController/Delete/5
-        public ActionResult Delete(int id)
+        // GET: Classes/Delete/5
+        [Authorize]
+        public async Task<IActionResult> Delete(int? id)
         {
-            return View();
+            if (id == null || _context.Class == null)
+            {
+                return NotFound();
+            }
+
+            var classs = await _context.Class
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (classs == null)
+            {
+                return NotFound();
+            }
+
+            return View(classs);
         }
 
-        // POST: ClassController/Delete/5
-        [HttpPost]
+        // POST: Classes/Delete/5
+        [Authorize]
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            try
+            if (_context.Class == null)
             {
-                return RedirectToAction(nameof(Index));
+                return Problem("Entity set 'ApplicationDbContext.Class'  is null.");
             }
-            catch
+            var classs = await _context.Class.FindAsync(id);
+            if (classs != null)
             {
-                return View();
+                _context.Class.Remove(classs);
             }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
         private bool ClassExists(int id)
         {
-            return (_context.Class?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Game?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
+
