@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using COMP1004_Project.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace COMP1004_Project.Controllers
@@ -10,6 +11,7 @@ namespace COMP1004_Project.Controllers
         {
             return View();
         }
+
 
         // GET: CustomViewModelController/Details/5
         public ActionResult Details(int id)

@@ -24,14 +24,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="Character.Classes" class="control-label"></label>
-
-            @foreach (var item in Model.Classes)
-            {
-                <label><input asp-for="Character.Classes" value="item.Name" type="radio" />item.Name</label>
-            }
-
-                
-                <input asp-for="Character.Classes" class="form-control" />
+                <div>
+                    @foreach (var item in Model.Classes)
+                    {
+                        <label><input asp-for="Character.Classes" value="@item.Name" type="radio" />@item.Name</label>
+                    }
+                </div>
 
             </div>
             <div class="form-group">

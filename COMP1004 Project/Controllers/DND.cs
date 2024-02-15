@@ -21,13 +21,14 @@ namespace COMP1004_Project.Controllers
         public async Task<IActionResult> Index()
         {
 
-            return _context.Character != null ?
-                        View("Index", new CustomViewModel
-                        {
-                            Characters = await _context.Character.ToListAsync(),
-                            Classes = await _context.Class.ToListAsync()
-                        }) :
-                        Problem("Entity set 'ApplicationDbContext.Character'  is null.");
+            return (_context.Character != null && _context.Class != null) ?
+                View("Index", new CustomViewModel
+                {
+                    Characters = await _context.Character.ToListAsync(),
+                    Classes = await _context.Class.ToListAsync()
+                }) :
+                Problem("Entity set 'ApplicationDbContext.Character' or 'ApplicationDbContext.Class' is null.");
+
         }
 
         // GET: Characters/Details/5
@@ -58,9 +59,9 @@ namespace COMP1004_Project.Controllers
         // GET: Characters/Create2
         public IActionResult Create2()
         {
-            return _context.Character != null ?
-                View() :
-                 Problem("Entity set 'ApplicationDbContext.Character'  is null.");
+            return (_context.Character != null && _context.Class != null) ?
+                 View() :
+                 Problem("Entity set 'ApplicationDbContext.Character' or 'ApplicationDbContext.Class' is null.");
         }
 
         public IActionResult Create3()
@@ -83,9 +84,13 @@ namespace COMP1004_Project.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return _context.Class != null ? 
-                View():
-                 Problem("Entity set 'ApplicationDbContext.Class'  is null.");
+            return (_context.Character != null && _context.Class != null) ?
+                View(new CustomViewModel
+                {
+                    Characters = await _context.Character.ToListAsync(),
+                    Classes = await _context.Class.ToListAsync()
+                }) :
+                 Problem("Entity set 'ApplicationDbContext.Character' or 'ApplicationDbContext.Class' is null.");
         }
 
         // GET: Characters/Edit/5
