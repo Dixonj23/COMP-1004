@@ -10,7 +10,7 @@
         public string? Image { get; set; }
         public Character()
         {
-
+            Level = 0;
         }
     }
 }

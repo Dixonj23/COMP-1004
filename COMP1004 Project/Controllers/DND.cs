@@ -31,22 +31,22 @@ namespace COMP1004_Project.Controllers
 
         }
 
-        // GET: Characters/Details/5
+        // GET: Class/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Character == null)
+            if (id == null || _context.Class == null)
             {
                 return NotFound();
             }
 
-            var character = await _context.Character
+            var classs = await _context.Class
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (character == null)
+            if (classs == null)
             {
                 return NotFound();
             }
 
-            return View(character);
+            return View(classs);
         }
 
 

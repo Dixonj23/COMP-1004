@@ -26,13 +26,17 @@
     opacity: .8;
 }
 
-
 .checked {
     color: orange;
 }
 
 .fa-star {
     cursor: pointer;
+}
+
+/* For character creation screen*/
+.card-rows {
+    display: inline-block;
 }
 
 /* For game select screen*/
@@ -76,6 +80,9 @@ a.navbar-brand {
     text-align: center;
     word-break: break-all;
 }
+
+
+
 
 /* Provide sufficient contrast against white background */
 a {
