@@ -13,17 +13,14 @@
         <form asp-action="Create2">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Character.Name" class="control-label"></label>
-                <input asp-for="Character.Name" class="form-control" />
-                <span asp-validation-for="Character.Name" class="text-danger"></span>
+                <input asp-for="Character.Name" class="form-control" type="hidden" />
 
             </div>
+
             <div class="form-group">
-                <label asp-for="Character.Race" class="control-label"></label>
-                <input asp-for="Character.Race" class="form-control" />
-                <span asp-validation-for="Character.Race" class="text-danger"></span>
-
+                <input asp-for="Character.Race" class="form-control" type="hidden"/>
             </div>
+
             <div class="form-group">
                 <label asp-for="Character.Classes" class="control-label"></label>
                 <div>
@@ -35,6 +32,7 @@
                                     <div class="card-columns">
                                         <h4 class="card-title">
                                             <label><input asp-for="Character.Classes" value="@item.Name" type="radio" />@item.Name</label>
+                                            
                                         </h4>
                                         <p class="card-text">
                                             <label>Hitdie = D</label>@Html.DisplayFor(modelItem => item.Hitdie)
@@ -42,7 +40,6 @@
                                     </div>
                                     <div class="card-footer text-muted">
                                         <a asp-action="Details" asp-route-id="@item.Id">Details</a>
-                                        <input asp-for="Character.Level" type="hidden" name="level" value="1" />
                                     </div>
                                 </div>
 
@@ -51,6 +48,11 @@
                     </div>
                 </div>
 
+            </div>
+
+            <div class="form-group">
+                <input asp-for="Character.Level" type="hidden" name="Level" value="1" />
+                <span asp-validation-for="Character.Level" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Character.Image" class="control-label"></label>

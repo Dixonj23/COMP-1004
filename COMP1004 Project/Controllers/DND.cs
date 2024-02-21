@@ -49,11 +49,31 @@ namespace COMP1004_Project.Controllers
             return View(classs);
         }
 
+        // GET: Character/Details/5
+        public async Task<IActionResult> DetailsC(int? id)
+        {
+            if (id == null || _context.Character == null)
+            {
+                return NotFound();
+            }
+
+            var character = await _context.Character
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (character == null)
+            {
+                return NotFound();
+            }
+
+            return View(character);
+        }
+
 
         // GET: Characters/Create
         public IActionResult Create()
         {
-            return View();
+            return (_context.Character != null && _context.Class != null) ?
+                 View() :
+                 Problem("Entity set 'ApplicationDbContext.Character' or 'ApplicationDbContext.Class' is null.");
         }
 
         // GET: Characters/Create2
@@ -77,7 +97,7 @@ namespace COMP1004_Project.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create2([Bind("Id,Name,Race,Classes,Level,Image")] Character character)
         {
-            
+            character.Level = 1;
             if (ModelState.IsValid)
             {
                 _context.Add(character);

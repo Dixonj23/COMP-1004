@@ -1,4 +1,5 @@
-﻿@model COMP1004_Project.Models.Character
+﻿@model CustomViewModel
+
 
 @{
     ViewData["Title"] = "Create";
@@ -13,15 +14,15 @@
         <form asp-action="Create2" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
+                <label asp-for="Character.Name" class="control-label"></label>
+                <input asp-for="Character.Name" class="form-control" />
+                <span asp-validation-for="Character.Name" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <div class="form-group">
-                    <label asp-for="Race" class="control-label"></label>
-                    <input asp-for="Race" class="form-control" />
-                    <span asp-validation-for="Race" class="text-danger"></span>
+                    <label asp-for="Character.Race" class="control-label"></label>
+                    <input asp-for="Character.Race" class="form-control" />
+                    <span asp-validation-for="Character.Race" class="text-danger"></span>
                 </div>
             </div>
             <div class="form-group">
