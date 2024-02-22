@@ -49,13 +49,13 @@
         <section class="misc">
             <ul>
                 <li>
-                    <label for="classlevel">Class & Level</label><input name="classlevel" placeholder="Paladin 2" value="@Html.DisplayFor(model => model.Classes)" />
+                    <label for="classlevel">Class & Level</label><input name="classlevel" placeholder="Paladin 2" value="@Html.DisplayFor(model => model.Classes)@Html.DisplayFor(model => model.Level)" />
                 </li>
                 <li>
                     <label for="background">Background</label><input name="background" placeholder="Acolyte" />
                 </li>
                 <li>
-                    <label for="playername">Player Name</label><input name="playername" placeholder="Player McPlayerface">
+                    <label for="playername">Player Name</label><input name="playername" placeholder="Player McPlayerface" value="@User.Identity?.Name">
                 </li>
                 <li>
                     <label for="race">Race</label><input name="race" placeholder="Half-elf" value="@Html.DisplayFor(model => model.Race)" />
