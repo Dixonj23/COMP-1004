@@ -174,7 +174,7 @@ namespace COMP1004_Project.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                
             }
             return View(character);
         }

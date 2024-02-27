@@ -11,21 +11,22 @@
 <div class="container">
     <div class="row">
         @foreach (var item in Model.Characters){
+        
         <div class="card bg-secondary shadow-lg" style="width:18rem;">
             <div class="card-columns">
+                    <a asp-action="Edit" asp-route-id="@item.Id">
                 <div class="card-img" style="background-image: url('@item.Image');"></div>
+                </a>
                 <h4 class="card-title">
                     @Html.DisplayFor(modelItem => item.Name)
                 </h4>
                 <p class="card-text">
-                    @Html.DisplayFor(modelItem => item.Classes)
+                    @Html.DisplayFor(modelItem => item.Classes) @Html.DisplayFor(modelItem => item.Level)
                 </p>
 
             </div>
             <div class="card-footer text-muted">
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="DetailsC" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <hr />
             </div>
         </div>
    

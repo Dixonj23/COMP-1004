@@ -11,12 +11,12 @@
 
 
 
-<form asp-action="Edit" class="charsheet">
+<form asp-action="Edit" class="charsheet" name="CSheet">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <input type="hidden" asp-for="Id" />
     <header>
         <section class="charname">
-            <label asp-for="Name">Character Name</label><input asp-for="Name" placeholder="Thoradin Fireforge"  />
+            <label asp-for="Name">Character Name</label><input asp-for="Name" placeholder="Thoradin Fireforge" class="auto-submit" />
             <span asp-validation-for="Name" class="text-danger"></span>
         </section>
         <section class="misc">
@@ -24,27 +24,42 @@
                 <li>
                     
 
-                    <label for="ClassLevel">Class & Level</label><input name="ClassLevel" placeholder="Paladin 2" value="@Model.Classes @Model.Level"/>
+                    <label for="ClassLevel">Class & Level</label><input name="ClassLevel" placeholder="Paladin 2" value="@Model.Classes @Model.Level" class="auto-submit" />
 
-                    <input asp-for="Classes" type="hidden"/>
-                    <input asp-for="Level" type="hidden" />
+                    <input asp-for="Classes" type="hidden" class="auto-submit" />
+                    <input asp-for="Level" type="hidden" class="auto-submit" />
                 </li>
                 <li>
-                    <label asp-for="Race">Race</label><input asp-for="Race" placeholder="Half-elf" />
+                    <label asp-for="Race">Race</label><input asp-for="Race" placeholder="Half-elf" class="auto-submit" />
                 </li>
             </ul>
         </section>
     </header>
-    <input asp-for="Image" class="form-control" type="hidden" />
+    <label asp-for="Image" class="control-label"></label>
+    <input asp-for="Image" class="form-control" class="auto-submit" />
+    <span asp-validation-for="Image" class="text-danger"></span>
+
     <div class="form-group">
-        <input type="submit" value="Save" class="btn btn-primary" />
+        <input type="submit" value="Save" class="btn btn-primary" style="display:none;"/>
     </div>
+
+
+    <script>
+        $(document).ready(function () {
+            $(".auto-submit").on("input", function () {
+                $("#CSheet").submit();
+            });
+        });
+    </script>
 </form>
 
 
 
 
-
+<div class="card-footer text-muted">
+    <a asp-action="DetailsC" asp-route-id="@Model.Id">Details</a> |
+    <a asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
+</div>
 
 
 
