@@ -134,17 +134,32 @@ namespace COMP1004_Project.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Race,Classes,Level,Image")] Character character)
+        public async Task<IActionResult> Edit(int id, string ClassLevel, [Bind("Id,Name,Race,Classes,Level,Image")] Character character)
         {
             if (id != character.Id)
             {
                 return NotFound();
             }
 
+
+
             if (ModelState.IsValid)
             {
                 try
                 {
+                    string[] parts = ClassLevel.Split(' ');
+
+                    if (parts.Length == 2)
+                    {
+                        character.Classes = parts[0];
+                        string levelString = parts[1];
+
+                        if (int.TryParse(levelString, out int level))
+                        {
+                            character.Level = level;
+                        }
+                    }
+
                     _context.Update(character);
                     await _context.SaveChangesAsync();
                 }
