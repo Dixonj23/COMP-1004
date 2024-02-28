@@ -4,7 +4,9 @@
     {
         public IEnumerable<Character> Characters { get; set; }
         public IEnumerable<Class>? Classes { get; set; }
+        public IEnumerable<Race>? Races { get; set; }
         public Character Character { get; set; }
         public Class Class { get; set; }
+        public Race Race { get; set; }
     }
 }

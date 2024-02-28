@@ -69,11 +69,16 @@ namespace COMP1004_Project.Controllers
 
 
         // GET: Characters/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            return (_context.Character != null && _context.Class != null) ?
-                 View() :
-                 Problem("Entity set 'ApplicationDbContext.Character' or 'ApplicationDbContext.Class' is null.");
+            return (_context.Character != null && _context.Class != null && _context.Race != null) ?
+                View(new CustomViewModel
+                {
+                    Characters = await _context.Character.ToListAsync(),
+                    Classes = await _context.Class.ToListAsync(),
+                    Races = await _context.Race.ToListAsync()
+                }) :
+                 Problem("Entity set 'ApplicationDbContext.Character' or 'ApplicationDbContext.Class' or 'ApplicationDbContext.Race' is null.");
         }
 
         // GET: Characters/Create2
@@ -104,13 +109,14 @@ namespace COMP1004_Project.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return (_context.Character != null && _context.Class != null) ?
+            return (_context.Character != null && _context.Class != null && _context.Race != null) ?
                 View(new CustomViewModel
                 {
                     Characters = await _context.Character.ToListAsync(),
-                    Classes = await _context.Class.ToListAsync()
+                    Classes = await _context.Class.ToListAsync(),
+                    Races = await _context.Race.ToListAsync()
                 }) :
-                 Problem("Entity set 'ApplicationDbContext.Character' or 'ApplicationDbContext.Class' is null.");
+                 Problem("Entity set 'ApplicationDbContext.Character' or 'ApplicationDbContext.Class' or 'ApplicationDbContext.Race' is null.");
         }
 
         // GET: Characters/Edit/5

@@ -13,5 +13,6 @@ namespace COMP1004_Project.Data
         public DbSet<COMP1004_Project.Models.Game> Game { get; set; } = default!;
         public DbSet<COMP1004_Project.Models.Character> Character { get; set; } = default!;
         public DbSet<COMP1004_Project.Models.Class> Class { get; set; } = default!;
+        public DbSet<COMP1004_Project.Models.Race> Race { get; set; } = default!;
     }
 }
