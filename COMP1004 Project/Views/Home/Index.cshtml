@@ -14,30 +14,51 @@
     <h1>Hi Admin</h1>
 }
 
+
 <div class="text-center">
-    <h1 class="display-4">COMP1004 Project</h1>
+    <h1 class="display-4">The Archives</h1>
     <p>Prototype 1: Created on 22/12/2023</a>.</p>
 
 </div>
 
-
-<div class="card-columns">
-    @foreach (var item in Model)
-    {
+<body>
+    <div class="wrapper">
         
-        <div class="card">
-           <a asp-action="@item.URL">
-            <div class="card-img" style="background-image: url('@item.Image');"></div>
-            </a>
-            <div class="card-body">
-                <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
-                <h6>@Html.DisplayFor(modelItem => item.Type)</h6>
-            </div>
 
+        <div class="card-columns">
+            @foreach (var item in Model)
+            {
+                <div class="card">
+                    <a asp-action="@item.URL">
+                        <div class="card-img" style="background-image: url('@item.Image');"></div>
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                        <h6>@Html.DisplayFor(modelItem => item.Type)</h6>
+                    </div>
+
+                </div>
+
+            }
         </div>
-        
-    }
-</div>
+
+
+
+
+
+        <div id="left-door" class="door">
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div id="left-knob" class="knob"></div>
+        </div>
+        <div id="right-door" class="door">
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div id="right-knob" class="knob"></div>
+        </div>
+    </div>
+</body>
+
 
 
 
