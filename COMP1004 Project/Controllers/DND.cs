@@ -128,10 +128,12 @@ namespace COMP1004_Project.Controllers
             }
 
             var character = await _context.Character.FindAsync(id);
+            var race = await _context.Race.FindAsync(id);
             if (character == null)
             {
                 return NotFound();
             }
+
             return View(character);
         }
 
