@@ -134,7 +134,21 @@ namespace COMP1004_Project.Controllers
                 return NotFound();
             }
 
-            return View(character);
+            var characterClass = await _context.Class
+               .FirstOrDefaultAsync(c => c.Name == character.Classes);
+
+            var characterRace = await _context.Race
+               .FirstOrDefaultAsync(c => c.Name == character.Race);
+
+            // Create an instance of CustomViewModel and populate it with the necessary data
+            var customViewModel = new CustomViewModel
+            {
+                Character = character,
+                Class = characterClass,
+                Race = characterRace
+            };
+
+            return View(customViewModel);
         }
 
         // POST: Characters/Edit/5
@@ -184,7 +198,22 @@ namespace COMP1004_Project.Controllers
                 }
                 
             }
-            return View(character);
+
+            var characterClass = await _context.Class
+                .FirstOrDefaultAsync(c => c.Name == character.Classes);
+
+            var characterRace = await _context.Race
+               .FirstOrDefaultAsync(c => c.Name == character.Race);
+
+            // Create an instance of CustomViewModel and populate it with the necessary data
+            var customViewModel = new CustomViewModel
+            {
+                Character = character,
+                Class = characterClass,
+                Race = characterRace
+            };
+
+            return View(customViewModel);
         }
 
         // GET: Characters/Delete/5

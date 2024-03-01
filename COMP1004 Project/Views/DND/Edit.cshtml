@@ -1,4 +1,4 @@
-﻿@model COMP1004_Project.Models.Character
+﻿@model CustomViewModel
 
 @{
     ViewData["Title"] = "Edit";
@@ -12,19 +12,19 @@
 
 <form asp-action="Edit" class="charsheet" name="CSheet">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="Character.Id" />
     <header>
         <section class="charname">
-            <label asp-for="Name">Character Name</label><input asp-for="Name" placeholder="Thoradin Fireforge" class="auto-submit" />
-            <span asp-validation-for="Name" class="text-danger"></span>
+            <label asp-for="Character.Name">Character Name</label><input asp-for="Character.Name" placeholder="Thoradin Fireforge" class="auto-submit" />
+            <span asp-validation-for="Character.Name" class="text-danger"></span>
         </section>
         <section class="misc">
             <ul>
                 <li>
-                    <label for="ClassLevel">Class & Level</label><input name="ClassLevel" placeholder="Paladin 2" value="@Model.Classes @Model.Level" class="auto-submit" />
+                    <label for="ClassLevel">Class & Level</label><input name="ClassLevel" placeholder="Paladin 2" value="@Model.Character.Classes @Model.Character.Level" class="auto-submit" />
 
                     <input asp-for="Classes" type="hidden" class="auto-submit" />
-                    <input asp-for="Level" type="hidden" class="auto-submit" />
+                    <input asp-for="Character.Level" type="hidden" class="auto-submit" />
                 </li>
                 <li>
                     <label for="background">Background</label><input name="background" placeholder="Acolyte" />
@@ -33,7 +33,7 @@
                     <label for="playername">Player Name</label><input name="playername" placeholder="Player McPlayerface" value="@User.Identity?.Name">
                 </li>
                 <li>
-                    <label asp-for="Race">Race</label><input asp-for="Race" placeholder="Half-elf" class="auto-submit" />
+                    <label asp-for="Race">Race</label><input asp-for="Character.Race" placeholder="Half-elf" class="auto-submit" />
                 </li>
                 <li>
                     <label for="alignment">Alignment</label><input name="alignment" placeholder="Lawful Good" />
@@ -224,7 +224,7 @@
                 </div>
                 <div class="speed">
                     <div>
-                        <label for="speed">Speed</label><input name="speed" placeholder="30" type="text" />
+                        <label for="speed">Speed</label><input name="speed" placeholder="30" type="text" value="@Model.Race.Speed"/>
                     </div>
                 </div>
                 <div class="hp">
@@ -243,7 +243,7 @@
                 <div class="hitdice">
                     <div>
                         <div class="total">
-                            <label for="totalhd">Total</label><input name="totalhd" placeholder="2d10" type="text" />
+                            <label for="totalhd">Total</label><input name="totalhd" placeholder="2d10" type="text" value="@(Model.Character.Level)d@(Model.Class.Hitdie)" />
                         </div>
                         <div class="remaining">
                             <label for="remaininghd">Hit Dice</label><input name="remaininghd" type="text" />
@@ -375,15 +375,16 @@
             </section>
             <section class="features">
                 <div>
-                    <label for="features">Features & Traits</label><textarea name="features"></textarea>
+                    <label for="features">Features & Traits</label><textarea name="features">@Model.Class.Features 
+@Model.Race.Traits</textarea>
                 </div>
             </section>
         </section>
     </main>
 
-    <label asp-for="Image" class="control-label"></label>
-    <input asp-for="Image" class="form-control" class="auto-submit" />
-    <span asp-validation-for="Image" class="text-danger"></span>
+    <label asp-for="Character.Image" class="control-label"></label>
+    <input asp-for="Character.Image" class="form-control" class="auto-submit" />
+    <span asp-validation-for="Character.Image" class="text-danger"></span>
 
     <div class="form-group">
         <input type="submit" value="Save" class="btn btn-primary" style="display:none;" />
@@ -419,8 +420,8 @@
 
 
 <div class="card-footer text-muted">
-    <a asp-action="DetailsC" asp-route-id="@Model.Id">Details</a> |
-    <a asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
+    <a asp-action="DetailsC" asp-route-id="@Model.Character.Id">Details</a> |
+    <a asp-action="Delete" asp-route-id="@Model.Character.Id">Delete</a>
 </div>
 
 
