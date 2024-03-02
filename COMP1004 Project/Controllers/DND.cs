@@ -173,6 +173,7 @@ namespace COMP1004_Project.Controllers
 
                     if (parts.Length == 2)
                     {
+
                         character.Classes = parts[0];
                         string levelString = parts[1];
 

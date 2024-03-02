@@ -9,6 +9,7 @@
 <hr />
 
 
+
 <form asp-action="Edit" class="charsheet" name="CSheet">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <input type="hidden" asp-for="Character.Id" />
@@ -20,8 +21,9 @@
         <section class="misc">
             <ul>
                 <li>
+                    
                     <label for="ClassLevel">Class & Level</label><input name="ClassLevel" placeholder="Paladin 2" value="@Model.Character.Classes @Model.Character.Level" class="auto-submit" />
-
+                    
                     <input asp-for="Classes" type="hidden" class="auto-submit" />
                     <input asp-for="Character.Level" type="hidden" class="auto-submit" />
                 </li>
@@ -206,7 +208,8 @@
                 <input name="passiveperception" placeholder="10" />
             </div>
             <div class="otherprofs box textblock">
-                <label for="otherprofs">Other Proficiencies and Languages</label><textarea name="otherprofs"></textarea>
+                <label for="otherprofs">Other Proficiencies and Languages</label><textarea name="otherprofs">@Model.Race.Languages
+@Model.Race.Proficiencies</textarea>
             </div>
         </section>
         <section>
