@@ -3,19 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_COMP1004_Project_d96d5ede_9951_4348_9308_bf08af3be9cf/True/SqlTable/dbo.Character.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240229115225_racelink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240229114213_racelink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240229112041_racelink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_COMP1004_Project_d96d5ede_9951_4348_9308_bf08af3be9cf/True/SqlTable/dbo.Class.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,57 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dbo.Character [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_COMP1004_Project_d96d5ede_9951_4348_9308_bf08af3be9cf/True/SqlTable/dbo.Character.sql",
-              "ToolTip": "dbo.Character [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-02-01T15:32:33.907Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240229115225_racelink.cs",
-              "DocumentMoniker": "C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240229115225_racelink.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240229115225_racelink.cs",
-              "ToolTip": "C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240229115225_racelink.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240229115225_racelink.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "CharactersController.cs",
+              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\CharactersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CharactersController.cs",
+              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\CharactersController.cs",
+              "RelativeToolTip": "Controllers\\CharactersController.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T11:52:26.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20240229114213_racelink.cs",
-              "DocumentMoniker": "C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240229114213_racelink.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240229114213_racelink.cs",
-              "ToolTip": "C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240229114213_racelink.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240229114213_racelink.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T11:42:13.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240229112041_racelink.cs",
-              "DocumentMoniker": "C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240229112041_racelink.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240229112041_racelink.cs",
-              "ToolTip": "C:\\Users\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240229112041_racelink.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\mypc\\OneDrive\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240229112041_racelink.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T11:20:41.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbo.Class [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_COMP1004_Project_d96d5ede_9951_4348_9308_bf08af3be9cf/True/SqlTable/dbo.Class.sql",
-              "ToolTip": "dbo.Class [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-02-11T13:37:42.361Z"
+              "WhenOpened": "2024-04-04T22:35:45.505Z",
+              "EditorCaption": ""
             }
           ]
         }
