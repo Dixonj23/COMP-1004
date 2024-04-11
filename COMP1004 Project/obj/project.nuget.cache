@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "l03FQ81i4nq3vjOO21qKjdIPoQBrOc25ASNQieYvuV+Jay+kxn1wx7gBYpLr7My8PYUW4LT3thk2Y8hULMFyFw==",
+  "dgSpecHash": "b4rnzauy/uNGus7juklna32ErDODxwTifVkVxcBo11+j5T9eZz70MlvkHxCHEz9KhlB7fUCWle4TIb965q8F+g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\COMP1004 Project.csproj",
   "expectedPackageFiles": [
@@ -234,11 +234,7 @@
     "C:\\Users\\Magpi\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Magpi\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Magpi\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Magpi\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Magpi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\Magpi\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\Magpi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\Magpi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
+    "C:\\Users\\Magpi\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
