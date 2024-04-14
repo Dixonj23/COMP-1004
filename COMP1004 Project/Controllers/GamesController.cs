@@ -9,6 +9,23 @@ using COMP1004_Project.Data;
 using COMP1004_Project.Models;
 using Microsoft.AspNetCore.Authorization;
 
+
+//This controls the Game object and its functions:
+// 1. It can return a list of games to the index page
+// 2. It can search the list of games for a specific game or for a general category 
+// 3. It can return a single game using a given id
+// 4. It can create a new game using given properties  of the new character
+// 5. It can change a games properties given an id and the new properties
+// 6. It can delete a game when given that characters id
+// 7. lastly it can check if a game exists when given an id
+//
+//all these controllers have similar functions excluding the CustomViewModelController, HomeController and DND controller,
+//as such this text may be similar in other controllers
+//
+//Similarly to the ClassController, the GamesController uses authorise although this version is role specific meaning only Admin users can create and edit games
+//Additionally, it utilises a new search function that may later be inplemented to every other controller
+
+
 namespace COMP1004_Project.Controllers
 {
     [Authorize(Roles = "Admin")]
@@ -21,7 +38,7 @@ namespace COMP1004_Project.Controllers
             _context = context;
         }
 
-        // GET: Games
+        // GET: 1. Games
         public async Task<IActionResult> Index()
         {
               return _context.Game != null ? 
@@ -29,7 +46,7 @@ namespace COMP1004_Project.Controllers
                           Problem("Entity set 'ApplicationDbContext.Game'  is null.");
         }
 
-        // GET: Games/ShowSearchForm
+        // GET: 2. Games/ShowSearchForm
         public async Task<IActionResult> ShowSearchForm()
         {
             return _context.Game != null ?
@@ -37,7 +54,7 @@ namespace COMP1004_Project.Controllers
                         Problem("Entity set 'ApplicationDbContext.Game'  is null.");
         }
 
-        // PoST: Games/ShowSearchResuts
+        // PoST: 2. Games/ShowSearchResuts
         public async Task<IActionResult> ShowSearchResults(string SearchPhrase)
         {
             return _context.Game != null ?
@@ -45,7 +62,7 @@ namespace COMP1004_Project.Controllers
                         Problem("Entity set 'ApplicationDbContext.Game'  is null.");
         }
 
-        // GET: Games/Details/5
+        // GET: 3. Games/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Game == null)
@@ -63,16 +80,14 @@ namespace COMP1004_Project.Controllers
             return View(game);
         }
 
-        // GET: Games/Create
+        // GET: 4. Games/Create
         [Authorize]
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Games/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: 4. Games/Create
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -87,7 +102,7 @@ namespace COMP1004_Project.Controllers
             return View(game);
         }
 
-        // GET: Games/Edit/5
+        // GET: 5. Games/Edit/5
         [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
@@ -104,9 +119,7 @@ namespace COMP1004_Project.Controllers
             return View(game);
         }
 
-        // POST: Games/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: 5. Games/Edit/5
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -140,7 +153,7 @@ namespace COMP1004_Project.Controllers
             return View(game);
         }
 
-        // GET: Games/Delete/5
+        // GET: 6. Games/Delete/5
         [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
@@ -159,7 +172,7 @@ namespace COMP1004_Project.Controllers
             return View(game);
         }
 
-        // POST: Games/Delete/5
+        // POST: 6. Games/Delete/5
         [Authorize]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
@@ -179,6 +192,7 @@ namespace COMP1004_Project.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        // 7. check game exists
         private bool GameExists(int id)
         {
           return (_context.Game?.Any(e => e.Id == id)).GetValueOrDefault();

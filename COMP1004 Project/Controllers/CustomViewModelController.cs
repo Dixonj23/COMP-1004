@@ -2,6 +2,10 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+//This controller is unique in the fact that the model it controls is made of three other models (character, race and class) and as such,
+//it contains the same methods as the other controllers but is almost never used to manipulate its object.
+
+
 namespace COMP1004_Project.Controllers
 {
     public class CustomViewModelController : Controller

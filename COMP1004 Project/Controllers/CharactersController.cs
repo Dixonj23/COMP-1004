@@ -8,6 +8,20 @@ using Microsoft.EntityFrameworkCore;
 using COMP1004_Project.Data;
 using COMP1004_Project.Models;
 
+//This controls the Character object and its functions:
+// 1. It can return a list of characters to the index page
+// 2. It can return a single character using a given id
+// 3. It can create a new character using given properties  of the new character
+// 4. It can change a characters properties given an id and the new properties
+// 5. It can delete a character when given that characters id
+// 6. lastly it can check if a character exists when given an id
+//
+//all these controllers have similar functions excluding the CustomViewModelController, HomeController and DND controller,
+//as such this text may be similar in other controllers
+//
+//This controller has little variation and is the closest to a standard controller
+
+
 namespace COMP1004_Project.Controllers
 {
     public class CharactersController : Controller
@@ -19,7 +33,7 @@ namespace COMP1004_Project.Controllers
             _context = context;
         }
 
-        // GET: Characters
+        // GET: 1. Characters 
         public async Task<IActionResult> Index()
         {
               return _context.Character != null ? 
@@ -27,7 +41,7 @@ namespace COMP1004_Project.Controllers
                           Problem("Entity set 'ApplicationDbContext.Character'  is null.");
         }
 
-        // GET: Characters/Details/5
+        // GET: 2. Characters/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Character == null)
@@ -45,15 +59,13 @@ namespace COMP1004_Project.Controllers
             return View(character);
         }
 
-        // GET: Characters/Create
+        // GET: 3. Characters/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Characters/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: 3. Characters/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Race,Classes,Level,Image")] Character character)
@@ -67,7 +79,7 @@ namespace COMP1004_Project.Controllers
             return View(character);
         }
 
-        // GET: Characters/Edit/5
+        // GET: 4. Characters/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Character == null)
@@ -83,9 +95,7 @@ namespace COMP1004_Project.Controllers
             return View(character);
         }
 
-        // POST: Characters/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: 4. Characters/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Race,Classes,Level,Image")] Character character)
@@ -118,7 +128,7 @@ namespace COMP1004_Project.Controllers
             return View(character);
         }
 
-        // GET: Characters/Delete/5
+        // GET: 5. Characters/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Character == null)
@@ -136,7 +146,7 @@ namespace COMP1004_Project.Controllers
             return View(character);
         }
 
-        // POST: Characters/Delete/5
+        // POST: 5. Characters/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -155,6 +165,7 @@ namespace COMP1004_Project.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        // 6. Check character exists
         private bool CharacterExists(int id)
         {
           return (_context.Character?.Any(e => e.Id == id)).GetValueOrDefault();

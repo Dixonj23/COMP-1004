@@ -5,6 +5,21 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
+//This controls the Class object and its functions:
+// 1. It can return a list of classes to the index page
+// 2. It can return a single class using a given id
+// 3. It can create a new class using given properties  of the new character
+// 4. It can change a classes properties given an id and the new properties
+// 5. It can delete a class when given that characters id
+// 6. lastly it can check if a class exists when given an id
+//
+//all these controllers have similar functions excluding the CustomViewModelController, HomeController and DND controller,
+//as such this text may be similar in other controllers
+//
+//This controller uses authorisation to ensure that only logged in users can access certain pages i.e. the create, edit and delete views
+
+
+
 namespace COMP1004_Project.Controllers
 {
     public class ClassController : Controller
@@ -18,7 +33,7 @@ namespace COMP1004_Project.Controllers
             _context = context;
         }
 
-        // GET: Classes
+        // GET: 1. Classes
         public async Task<IActionResult> Index()
         {
             return _context.Class != null ?
@@ -26,7 +41,7 @@ namespace COMP1004_Project.Controllers
                         Problem("Entity set 'ApplicationDbContext.Class'  is null.");
         }
 
-        // GET: Class/Details/5
+        // GET: 2. Class/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Class == null)
@@ -44,16 +59,14 @@ namespace COMP1004_Project.Controllers
             return View(classs);
         }
 
-        // GET: Classes/Create
+        // GET: 3. Classes/Create
         [Authorize]
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Classes/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: 3. Classes/Create
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -68,7 +81,7 @@ namespace COMP1004_Project.Controllers
             return View(classs);
         }
 
-        // GET: Classes/Edit/5
+        // GET: 4. Classes/Edit/5
         [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
@@ -85,9 +98,7 @@ namespace COMP1004_Project.Controllers
             return View(classs);
         }
 
-        // POST: Classes/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: 4. Classes/Edit/5
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -121,7 +132,7 @@ namespace COMP1004_Project.Controllers
             return View(classs);
         }
 
-        // GET: Classes/Delete/5
+        // GET: 5. Classes/Delete/5
         [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
@@ -140,7 +151,7 @@ namespace COMP1004_Project.Controllers
             return View(classs);
         }
 
-        // POST: Classes/Delete/5
+        // POST: 5. Classes/Delete/5
         [Authorize]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
@@ -160,6 +171,7 @@ namespace COMP1004_Project.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        //6. check class exists
         private bool ClassExists(int id)
         {
             return (_context.Game?.Any(e => e.Id == id)).GetValueOrDefault();
