@@ -134,7 +134,7 @@ namespace COMP1004_Project.Controllers
 
         // GET: 5. Classes/Delete/5
         [Authorize]
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int? id)   
         {
             if (id == null || _context.Class == null)
             {
