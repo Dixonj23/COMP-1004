@@ -50,7 +50,7 @@ namespace COMP1004_Project.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Character", (string)null);
+                    b.ToTable("Character");
                 });
 
             modelBuilder.Entity("COMP1004_Project.Models.Class", b =>
@@ -77,7 +77,7 @@ namespace COMP1004_Project.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Class", (string)null);
+                    b.ToTable("Class");
                 });
 
             modelBuilder.Entity("COMP1004_Project.Models.Game", b =>
@@ -106,7 +106,7 @@ namespace COMP1004_Project.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Game", (string)null);
+                    b.ToTable("Game");
                 });
 
             modelBuilder.Entity("COMP1004_Project.Models.Race", b =>
@@ -146,7 +146,7 @@ namespace COMP1004_Project.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Race", (string)null);
+                    b.ToTable("Race");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
