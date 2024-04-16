@@ -5,12 +5,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
-//This controller is used to manage the game selection home screen and as such, contains the bare minimum functions
-// it contains the standard Index, Details and Exists functions for the Game object however it differs beyond them:
-//  1. it has a privacy function for a privacy view
-//  2. it has an error function to return the request id of an error
-//  3. this has been mentioned in other controllers but in contains Authorise for the purpose of redirecting a logged out user to the sign in page on startup 
-
 namespace COMP1004_Project.Controllers
 {
     [Authorize]
@@ -34,7 +28,6 @@ namespace COMP1004_Project.Controllers
                        Problem("Entity set 'ApplicationDbContext.Game'  is null.");
         }
 
-        //  1. privacy
         public IActionResult Privacy()
         {
             return View();
@@ -59,14 +52,11 @@ namespace COMP1004_Project.Controllers
             return View(game);
         }
 
-        // 2. error
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
-        // check game exists
         private bool GameExists(int id)
         {
             return (_context.Game?.Any(e => e.Id == id)).GetValueOrDefault();

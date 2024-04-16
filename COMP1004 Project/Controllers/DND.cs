@@ -4,19 +4,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.SqlServer.Server;
 
-// This controller manages the DND section of the application
-// it uses both previously seen and new technologies to run smoothly and merge multiple models:
-// 1. Index is here again but this time utilising Route to clean up the URL and returning the CustomViewModel to output data from two models to one view
-// 2. Details is split into Details and DetailsC to return the character and class details individually
-// 3. Create is split into multiple functios to utilise the CustomViewModel to create a charater consisting of merged models this
-// also allows a character to be created across multiple views providing a step by step character creation process
-// 4. Edit uses custom view model to change the characters, class or race model. Additionally, it uses split, length and parse to allow 
-// the characters class and level to be output and input in the following format (Class Level) i.e. Wizard 2 
-// 5. Delete and Exists are the same as usual but only change the character object
-//
-
-
-
 namespace COMP1004_Project.Controllers
 {
     public class DND : Controller
@@ -29,7 +16,7 @@ namespace COMP1004_Project.Controllers
         }
 
 
-        // 1. 
+
         [Route("Home/{name?}")]
         public async Task<IActionResult> Index()
         {
@@ -44,7 +31,7 @@ namespace COMP1004_Project.Controllers
 
         }
 
-        // GET: 2. Class/Details/5
+        // GET: Class/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Class == null)
@@ -62,7 +49,7 @@ namespace COMP1004_Project.Controllers
             return View(classs);
         }
 
-        // GET: 2. Character/Details/5
+        // GET: Character/Details/5
         public async Task<IActionResult> DetailsC(int? id)
         {
             if (id == null || _context.Character == null)
@@ -81,7 +68,7 @@ namespace COMP1004_Project.Controllers
         }
 
 
-        // GET: 3. Characters/Create
+        // GET: Characters/Create
         public async Task<IActionResult> Create()
         {
             return (_context.Character != null && _context.Class != null && _context.Race != null) ?
@@ -94,7 +81,7 @@ namespace COMP1004_Project.Controllers
                  Problem("Entity set 'ApplicationDbContext.Character' or 'ApplicationDbContext.Class' or 'ApplicationDbContext.Race' is null.");
         }
 
-        // GET: 3. Characters/Create2
+        // GET: Characters/Create2
         public IActionResult Create2()
         {
             return (_context.Character != null && _context.Class != null) ?
@@ -108,7 +95,9 @@ namespace COMP1004_Project.Controllers
         }
 
 
-        // POST: 3. Characters/Create2
+        // POST: Characters/Create2
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create2([Bind("Id,Name,Race,Classes,Level,Image")] Character character)
@@ -130,7 +119,7 @@ namespace COMP1004_Project.Controllers
                  Problem("Entity set 'ApplicationDbContext.Character' or 'ApplicationDbContext.Class' or 'ApplicationDbContext.Race' is null.");
         }
 
-        // GET: 4. Characters/Edit/5
+        // GET: Characters/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Character == null)
@@ -162,7 +151,7 @@ namespace COMP1004_Project.Controllers
             return View(customViewModel);
         }
 
-        // POST: 4. Characters/Edit/5
+        // POST: Characters/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -214,7 +203,7 @@ namespace COMP1004_Project.Controllers
             return View(customViewModel);
         }
 
-        // GET: 5. Characters/Delete/5
+        // GET: Characters/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Character == null)
@@ -232,7 +221,7 @@ namespace COMP1004_Project.Controllers
             return View(character);
         }
 
-        // POST: 5. Characters/Delete/5
+        // POST: Characters/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -251,7 +240,6 @@ namespace COMP1004_Project.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // 5. check character exists
         private bool CharacterExists(int id)
         {
             return (_context.Character?.Any(e => e.Id == id)).GetValueOrDefault();

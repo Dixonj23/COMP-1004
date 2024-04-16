@@ -8,21 +8,6 @@ using Microsoft.EntityFrameworkCore;
 using COMP1004_Project.Data;
 using COMP1004_Project.Models;
 
-//This controls the Race object and its functions:
-// 1. It can return a list of races to the index page
-// 2. It can return a single race using a given id
-// 3. It can create a new race using given properties  of the new character
-// 4. It can change a races properties given an id and the new properties
-// 5. It can delete a race when given that characters id
-// 6. lastly it can check if a race exists when given an id
-//
-//all these controllers have similar functions excluding the CustomViewModelController, HomeController and DND controller,
-//as such this text may be similar in other controllers
-//
-//Similarly to the CharactersController, the RacesController varies very little from a generic controller
-
-
-
 namespace COMP1004_Project.Controllers
 {
     public class RacesController : Controller
@@ -34,7 +19,7 @@ namespace COMP1004_Project.Controllers
             _context = context;
         }
 
-        // GET: 1. Races
+        // GET: Races
         public async Task<IActionResult> Index()
         {
               return _context.Race != null ? 
@@ -42,7 +27,7 @@ namespace COMP1004_Project.Controllers
                           Problem("Entity set 'ApplicationDbContext.Race'  is null.");
         }
 
-        // GET: 2. Races/Details/5
+        // GET: Races/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Race == null)
@@ -60,13 +45,15 @@ namespace COMP1004_Project.Controllers
             return View(race);
         }
 
-        // GET: 3. Races/Create
+        // GET: Races/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: 3. Races/Create
+        // POST: Races/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Speed,Size,Abilities,Proficiencies,Languages,Skills,Traits")] Race race)
@@ -80,7 +67,7 @@ namespace COMP1004_Project.Controllers
             return View(race);
         }
 
-        // GET: 4. Races/Edit/5
+        // GET: Races/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Race == null)
@@ -96,7 +83,9 @@ namespace COMP1004_Project.Controllers
             return View(race);
         }
 
-        // POST: 4. Races/Edit/5
+        // POST: Races/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Speed,Size,Abilities,Proficiencies,Languages,Skills,Traits")] Race race)
@@ -129,7 +118,7 @@ namespace COMP1004_Project.Controllers
             return View(race);
         }
 
-        // GET: 5. Races/Delete/5
+        // GET: Races/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Race == null)
@@ -147,7 +136,7 @@ namespace COMP1004_Project.Controllers
             return View(race);
         }
 
-        // POST: 5. Races/Delete/5
+        // POST: Races/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -166,7 +155,6 @@ namespace COMP1004_Project.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // 6. check race exists
         private bool RaceExists(int id)
         {
           return (_context.Race?.Any(e => e.Id == id)).GetValueOrDefault();
