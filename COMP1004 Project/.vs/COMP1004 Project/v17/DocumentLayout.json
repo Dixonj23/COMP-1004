@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\dnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\dnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -12,6 +13,8 @@
       "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\racescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\racescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 =======
@@ -24,7 +27,18 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240411161550_pcswap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\dnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\dnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\customviewmodelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\customviewmodelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -56,12 +70,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 0,
+>>>>>>> Stashed changes
               "Title": "RacesController.cs",
               "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\RacesController.cs",
               "RelativeDocumentMoniker": "Controllers\\RacesController.cs",
@@ -73,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -81,11 +99,12 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAACeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:20:03.993Z"
+              "WhenOpened": "2024-04-14T13:20:03.993Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GamesController.cs",
               "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\GamesController.cs",
               "RelativeDocumentMoniker": "Controllers\\GamesController.cs",
@@ -97,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DND.cs",
               "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\DND.cs",
               "RelativeDocumentMoniker": "Controllers\\DND.cs",
@@ -153,6 +172,7 @@
               "RelativeToolTip": "Models\\Game.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
               "WhenOpened": "2024-04-14T12:59:52.857Z"
 =======
@@ -172,6 +192,10 @@
               "WhenOpened": "2024-04-11T13:16:06.28Z",
               "EditorCaption": ""
 >>>>>>> parent of f72d993 (Commenting code)
+=======
+              "WhenOpened": "2024-04-14T12:59:52.857Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
@@ -184,7 +208,8 @@
               "RelativeToolTip": "Controllers\\ClassController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:59:43.352Z"
+              "WhenOpened": "2024-04-14T12:59:43.352Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -198,8 +223,13 @@
               "RelativeToolTip": "Controllers\\CharactersController.cs",
               "ViewState": "AQIAAKMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
               "WhenOpened": "2024-04-14T12:59:03.185Z"
+=======
+              "WhenOpened": "2024-04-14T12:59:03.185Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
@@ -211,11 +241,16 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+<<<<<<< Updated upstream
               "WhenOpened": "2024-04-14T12:58:56.518Z"
 =======
               "WhenOpened": "2024-04-04T22:35:45.505Z",
               "EditorCaption": ""
 >>>>>>> parent of f72d993 (Commenting code)
+=======
+              "WhenOpened": "2024-04-14T12:58:56.518Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             }
           ]
         }
