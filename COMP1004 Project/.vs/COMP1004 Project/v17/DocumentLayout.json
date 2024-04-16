@@ -3,64 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\",
   "Documents": [
     {
-<<<<<<< Updated upstream
-<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\dnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\dnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\views\\dnd\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:views\\dnd\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\data\\migrations\\20240416134408_idnoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:data\\migrations\\20240416134408_idnoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\data\\migrations\\20240416133336_fixes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:data\\migrations\\20240416133336_fixes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-=======
->>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\racescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\racescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\data\\migrations\\20231222135852_initialsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:data\\migrations\\20231222135852_initialsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> parent of f72d993 (Commenting code)
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240411161550_pcswap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240411161550_pcswap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-=======
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\dnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\dnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
->>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\customviewmodelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\customviewmodelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> parent of f72d993 (Commenting code)
     },
     {
       "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,16 +58,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-<<<<<<< HEAD
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\DND\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\DND\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\DND\\Index.cshtml",
+              "RelativeToolTip": "Views\\DND\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T13:45:57.115Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-=======
-              "DocumentIndex": 0,
->>>>>>> Stashed changes
+              "Title": "20240416134408_idnoclass.cs",
+              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240416134408_idnoclass.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240416134408_idnoclass.cs",
+              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240416134408_idnoclass.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240416134408_idnoclass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T13:44:09.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240416133336_fixes.cs",
+              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240416133336_fixes.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240416133336_fixes.cs",
+              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240416133336_fixes.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240416133336_fixes.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAswEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T13:33:36.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\Character.cs",
+              "RelativeDocumentMoniker": "Models\\Character.cs",
+              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\Character.cs",
+              "RelativeToolTip": "Models\\Character.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T13:32:17.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RacesController.cs",
               "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\RacesController.cs",
               "RelativeDocumentMoniker": "Controllers\\RacesController.cs",
@@ -91,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -99,12 +130,11 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAACeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:20:03.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:20:03.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "GamesController.cs",
               "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\GamesController.cs",
               "RelativeDocumentMoniker": "Controllers\\GamesController.cs",
@@ -116,91 +146,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "DND.cs",
               "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\DND.cs",
               "RelativeDocumentMoniker": "Controllers\\DND.cs",
               "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\DND.cs",
               "RelativeToolTip": "Controllers\\DND.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABSAAAA",
-=======
-              "DocumentIndex": 0,
-              "Title": "20231222135852_initialsetup.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20231222135852_initialsetup.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20231222135852_initialsetup.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20231222135852_initialsetup.cs",
-              "RelativeToolTip": "Data\\Migrations\\20231222135852_initialsetup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAGYAAAAAAAAAAAA4wHYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T16:17:10.442Z",
+              "WhenOpened": "2024-04-14T13:08:58.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240411161550_pcswap.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240411161550_pcswap.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240411161550_pcswap.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240411161550_pcswap.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240411161550_pcswap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "CustomViewModelController.cs",
+              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\CustomViewModelController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomViewModelController.cs",
+              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\CustomViewModelController.cs",
+              "RelativeToolTip": "Controllers\\CustomViewModelController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T16:15:50.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
->>>>>>> parent of f72d993 (Commenting code)
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T15:58:40.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\Game.cs",
-              "RelativeDocumentMoniker": "Models\\Game.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\Game.cs",
-              "RelativeToolTip": "Models\\Game.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< Updated upstream
-<<<<<<< HEAD
               "WhenOpened": "2024-04-14T12:59:52.857Z"
-=======
-              "WhenOpened": "2024-04-11T15:50:03.307Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T13:16:06.28Z",
-              "EditorCaption": ""
->>>>>>> parent of f72d993 (Commenting code)
-=======
-              "WhenOpened": "2024-04-14T12:59:52.857Z",
-              "EditorCaption": ""
->>>>>>> Stashed changes
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-<<<<<<< HEAD
+              "DocumentIndex": 9,
               "Title": "ClassController.cs",
               "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\ClassController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClassController.cs",
@@ -208,32 +179,23 @@
               "RelativeToolTip": "Controllers\\ClassController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:59:43.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:59:43.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-=======
->>>>>>> parent of f72d993 (Commenting code)
+              "DocumentIndex": 10,
               "Title": "CharactersController.cs",
               "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\CharactersController.cs",
               "RelativeDocumentMoniker": "Controllers\\CharactersController.cs",
               "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\CharactersController.cs",
               "RelativeToolTip": "Controllers\\CharactersController.cs",
-              "ViewState": "AQIAAKMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< Updated upstream
-<<<<<<< HEAD
               "WhenOpened": "2024-04-14T12:59:03.185Z"
-=======
-              "WhenOpened": "2024-04-14T12:59:03.185Z",
-              "EditorCaption": ""
->>>>>>> Stashed changes
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
@@ -241,16 +203,7 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-<<<<<<< Updated upstream
               "WhenOpened": "2024-04-14T12:58:56.518Z"
-=======
-              "WhenOpened": "2024-04-04T22:35:45.505Z",
-              "EditorCaption": ""
->>>>>>> parent of f72d993 (Commenting code)
-=======
-              "WhenOpened": "2024-04-14T12:58:56.518Z",
-              "EditorCaption": ""
->>>>>>> Stashed changes
             }
           ]
         }

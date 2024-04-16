@@ -114,8 +114,8 @@ namespace COMP1004_Project.Controllers
                 {
                     Characters = await _context.Character.ToListAsync(),
                     Classes = await _context.Class.ToListAsync(),
-                    Races = await _context.Race.ToListAsync()
-                }) :
+                    Races = await _context.Race.ToListAsync(),
+        }) :
                  Problem("Entity set 'ApplicationDbContext.Character' or 'ApplicationDbContext.Class' or 'ApplicationDbContext.Race' is null.");
         }
 
@@ -128,6 +128,7 @@ namespace COMP1004_Project.Controllers
             }
 
             var character = await _context.Character.FindAsync(id);
+            var classes = await _context.Class.FindAsync(id);
             var race = await _context.Race.FindAsync(id);
             if (character == null)
             {
@@ -156,38 +157,15 @@ namespace COMP1004_Project.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Class classes, [Bind("Id,Name,Race,Classes,Level,Image")] Character character)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Race,Classes,Level,Image")] Character character)
         {
             if (id != character.Id)
             {
                 return NotFound();
             }
 
-
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-
-                    _context.Update(character);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!CharacterExists(character.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                
-            }
-
-            var characterClass = classes;
+            var characterClass = await _context.Class
+               .FirstOrDefaultAsync(c => c.Name == character.Classes); 
 
             var characterRace = await _context.Race
                .FirstOrDefaultAsync(c => c.Name == character.Race);

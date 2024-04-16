@@ -245,7 +245,8 @@
                 <div class="hitdice">
                     <div>
                         <div class="total">
-                            <label for="totalhd">Total</label><input name="totalhd" placeholder="2d10" type="text" value="@(Model.Character.Level)d@(Model.Class.Hitdie)" />
+                            <label asp-for="TotalHD">Total</label>
+                            <input asp-for="TotalHD" class="form-control" type="text" placeholder="1D10" />
                         </div>
                         <div class="remaining">
                             <label for="remaininghd">Hit Dice</label><input name="remaininghd" type="text" />

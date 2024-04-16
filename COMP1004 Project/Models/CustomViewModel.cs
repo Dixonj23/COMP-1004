@@ -8,5 +8,7 @@
         public Character Character { get; set; }
         public Class Class { get; set; }
         public Race Race { get; set; }
+
+        public string TotalHD => $"{Character.Level}D{Class.Hitdie}";
     }
 }
