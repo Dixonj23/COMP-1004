@@ -1,5 +1,8 @@
 ﻿namespace COMP1004_Project.Models
 {
+    //once again like class and character, race has properties as per the rules of dnd
+    //the properties abilities, proficiencies, languages, skills and traits will all become arrays at a later date
+
     public class Race
     {
         public int Id { get; set; }

@@ -1,5 +1,9 @@
 ﻿namespace COMP1004_Project.Models
 {
+
+    //Similarly to the character model, it contains properties as per the rules of dnd
+    // in the future the features property will be an array
+
     public class Class
     {
         public int Id { get; set; }

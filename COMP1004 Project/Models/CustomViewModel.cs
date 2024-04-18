@@ -1,5 +1,7 @@
 ﻿namespace COMP1004_Project.Models
 {
+    // this model merges multiple models into one for the purpose of designing a character,
+    // as well as outputing properties of multiple models in a single view
     public class CustomViewModel
     {
         public IEnumerable<Character> Characters { get; set; }
