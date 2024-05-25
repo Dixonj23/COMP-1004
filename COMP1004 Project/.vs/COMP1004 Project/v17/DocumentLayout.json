@@ -3,100 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\views\\class\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:views\\class\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\views\\class\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:views\\class\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\views\\class\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:views\\class\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\views\\class\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:views\\class\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\views\\class\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:views\\class\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\views\\characters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:views\\characters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\models\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:models\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\models\\customviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:models\\customviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\views\\dnd\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:views\\dnd\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\views\\dnd\\create2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:views\\dnd\\create2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\dnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\dnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\views\\dnd\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:views\\dnd\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\data\\migrations\\20240416134408_idnoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:data\\migrations\\20240416134408_idnoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\data\\migrations\\20240416133336_fixes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:data\\migrations\\20240416133336_fixes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\racescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\racescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\customviewmodelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\customviewmodelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|c:\\users\\magpi\\documents\\github\\comp-1004\\comp1004 project\\views\\dnd\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12154B0B-63AA-4AB3-9F6D-182968B2B178}|COMP1004 Project.csproj|solutionrelative:views\\dnd\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240525115152_Hitdice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240525115152_Hitdice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,309 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\Class\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Class\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\Class\\Index.cshtml",
-              "RelativeToolTip": "Views\\Class\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T11:28:28.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\Class\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Class\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\Class\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Class\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T11:28:13.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\Class\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Class\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\Class\\Details.cshtml",
-              "RelativeToolTip": "Views\\Class\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T11:27:21.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\Class\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Class\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\Class\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Class\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T11:15:20.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\Class\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Class\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\Class\\Create.cshtml",
-              "RelativeToolTip": "Views\\Class\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T11:15:20.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\Characters\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Characters\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\Characters\\Index.cshtml",
-              "RelativeToolTip": "Views\\Characters\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T11:12:59.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Race.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\Race.cs",
-              "RelativeDocumentMoniker": "Models\\Race.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\Race.cs",
-              "RelativeToolTip": "Models\\Race.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAByAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T11:11:49.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\Game.cs",
-              "RelativeDocumentMoniker": "Models\\Game.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\Game.cs",
-              "RelativeToolTip": "Models\\Game.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T11:11:13.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T11:10:50.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CustomViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\CustomViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\CustomViewModel.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\CustomViewModel.cs",
-              "RelativeToolTip": "Models\\CustomViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T11:10:00.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Class.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\Class.cs",
-              "RelativeDocumentMoniker": "Models\\Class.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\Class.cs",
-              "RelativeToolTip": "Models\\Class.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T11:08:34.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T10:29:49.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\DND\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\DND\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\DND\\Index.cshtml",
-              "RelativeToolTip": "Views\\DND\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T13:45:57.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20240416134408_idnoclass.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240416134408_idnoclass.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240416134408_idnoclass.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240416134408_idnoclass.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240416134408_idnoclass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T13:44:09.169Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "20240416133336_fixes.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240416133336_fixes.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240416133336_fixes.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240416133336_fixes.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240416133336_fixes.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAswEAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T13:33:36.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Character.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\Character.cs",
-              "RelativeDocumentMoniker": "Models\\Character.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\Character.cs",
-              "RelativeToolTip": "Models\\Character.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T13:32:17.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RacesController.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\RacesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RacesController.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\RacesController.cs",
-              "RelativeToolTip": "Controllers\\RacesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABpAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:20:59.281Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAACeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:20:03.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GamesController.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\GamesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GamesController.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\GamesController.cs",
-              "RelativeToolTip": "Controllers\\GamesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:09:53.553Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "DND.cs",
               "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\DND.cs",
               "RelativeDocumentMoniker": "Controllers\\DND.cs",
               "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\DND.cs",
               "RelativeToolTip": "Controllers\\DND.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAcwHYAAAAoAAAA",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAuwJwAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:08:58.872Z",
+              "WhenOpened": "2024-05-25T11:58:20.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 4,
               "Title": "CustomViewModelController.cs",
               "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\CustomViewModelController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomViewModelController.cs",
               "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\CustomViewModelController.cs",
               "RelativeToolTip": "Controllers\\CustomViewModelController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:59:52.857Z"
+              "WhenOpened": "2024-05-25T11:58:15.943Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ClassController.cs",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\ClassController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClassController.cs",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\ClassController.cs",
-              "RelativeToolTip": "Controllers\\ClassController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:59:43.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 5,
               "Title": "CharactersController.cs",
               "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\CharactersController.cs",
               "RelativeDocumentMoniker": "Controllers\\CharactersController.cs",
               "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Controllers\\CharactersController.cs",
               "RelativeToolTip": "Controllers\\CharactersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFoAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:59:03.185Z"
+              "WhenOpened": "2024-05-25T11:57:28.703Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Create2.cshtml",
+              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\DND\\Create2.cshtml",
+              "RelativeDocumentMoniker": "Views\\DND\\Create2.cshtml",
+              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\DND\\Create2.cshtml",
+              "RelativeToolTip": "Views\\DND\\Create2.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAADMAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T12:58:56.518Z"
+              "WhenOpened": "2024-05-25T11:52:35.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\DND\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\DND\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\DND\\Create.cshtml",
+              "RelativeToolTip": "Views\\DND\\Create.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T11:52:32.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240525115152_Hitdice.cs",
+              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240525115152_Hitdice.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240525115152_Hitdice.cs",
+              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Data\\Migrations\\20240525115152_Hitdice.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240525115152_Hitdice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T11:51:52.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\Character.cs",
+              "RelativeDocumentMoniker": "Models\\Character.cs",
+              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Models\\Character.cs",
+              "RelativeToolTip": "Models\\Character.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T11:51:09.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\DND\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\DND\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Magpi\\Documents\\GitHub\\COMP-1004\\COMP1004 Project\\Views\\DND\\Edit.cshtml",
+              "RelativeToolTip": "Views\\DND\\Edit.cshtml",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAAAHUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T11:22:57.863Z",
+              "EditorCaption": ""
             }
           ]
         }

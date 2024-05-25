@@ -32,6 +32,7 @@
                                     <div class="card-columns">
                                         <h4 class="card-title">
                                             <label><input asp-for="Character.Classes" value="@item.Name" type="radio" />@item.Name</label>
+           
                                             
                                         </h4>
                                         <p class="card-text">
@@ -43,6 +44,7 @@
                                     </div>
                                 </div>
 
+                                <input asp-for="Character.HitDice" class="form-control" type="hidden" value="@(string.Concat("D", item.Hitdie))" />
                             }
                         </div>
                     </div>

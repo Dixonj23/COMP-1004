@@ -10,6 +10,7 @@
 
 
 
+
 <form asp-action="Edit" class="charsheet" name="CSheet">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <input type="hidden" asp-for="Character.Id" />
@@ -111,7 +112,36 @@
                         <div class="label-container">
                             <label for="proficiencybonus">Proficiency Bonus</label>
                         </div>
-                        <input name="proficiencybonus" placeholder="+2" />
+                        @{
+                            int level = @Model.Character.Level;
+                            int proficiencyBonus;
+
+                            if (level >= 1 && level <= 4)
+                            {
+                                proficiencyBonus = 2;
+                            }
+                            else if (level >= 5 && level <= 8)
+                            {
+                                proficiencyBonus = 3;
+                            }
+                            else if (level >= 9 && level <= 12)
+                            {
+                                proficiencyBonus = 4;
+                            }
+                            else if (level >= 13 && level <= 16)
+                            {
+                                proficiencyBonus = 5;
+                            }
+                            else if (level >= 17 && level <= 20)
+                            {
+                                proficiencyBonus = 6;
+                            }
+                            else
+                            {
+                                proficiencyBonus = 0; // Default value for levels outside the specified range
+                            }
+                        }
+                        <input name="proficiencybonus" placeholder="+2" value="@proficiencyBonus"  />
                     </div>
                     <div class="saves list-section box">
                         <ul>
@@ -245,8 +275,8 @@
                 <div class="hitdice">
                     <div>
                         <div class="total">
-                            <label asp-for="TotalHD">Total</label>
-                            <input asp-for="TotalHD" class="form-control" type="text" placeholder="1D10" />
+                            <label for="TotalHD">Total</label>
+                            <input for="TotalHD" class="form-control" type="text" placeholder="1D10" value="@(string.Concat(Model.Character.Level, Model.Character.HitDice))" />
                         </div>
                         <div class="remaining">
                             <label for="remaininghd">Hit Dice</label><input name="remaininghd" type="text" />

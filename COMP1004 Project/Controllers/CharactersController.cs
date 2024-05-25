@@ -56,7 +56,7 @@ namespace COMP1004_Project.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Race,Classes,Level,Image")] Character character)
+        public async Task<IActionResult> Create([Bind("Id,Name,Race,Classes,Level,HitDice,Image")] Character character)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace COMP1004_Project.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Race,Classes,Level,Image")] Character character)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Race,Classes,Level,HitDice,Image")] Character character)
         {
             if (id != character.Id)
             {
